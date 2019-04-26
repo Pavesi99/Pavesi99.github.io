@@ -1,0 +1,94 @@
+	html{
+		/*Suavisação da Rolagem*/
+		scroll-behavior: smooth;
+		/*Rolagem-Comportamento: suave;*/
+	}
+
+	body{
+		background-color: black; 
+		font-family: monospace;
+		color: lime;
+
+	}
+
+	h1,h2,h3{
+		color:  lime;
+		text-shadow: 1px 1px 7px white;
+	}
+
+	img{
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 400px;
+	background-color: lime;
+		border: 2px solid white;
+		border-radius: 50%;/*Arredonda*/
+		
+		box-sizing: border-box;
+		padding: auto;
+		
+		box-shadow:  0 0 15px lime;
+	}
+
+.voltar{
+
+		text-decoration: none;
+		text-align: center;
+
+		color: black;
+
+	display: block;
+	margin: 0 auto;
+
+	width: 100px;
+	
+	background-color: lightgray;
+		border: 2px solid white;
+		border-radius: 40px;
+		
+		box-sizing: border-box;
+		padding: 20px;
+		
+		box-shadow:  0 0 50px lime;
+}
+
+.voltar:hover{
+	box-shadow: 0 0 10px white;
+}
+
+
+
+
+/*Estilização do menu superior*/
+
+ul{
+	position: sticky;
+	top: 0;
+	list-style-type: none;
+	margin: 0;padding: 0;
+	overflow: hidden;
+	background-color: lightgray;
+}
+
+li{
+	float:left ;
+
+}
+
+li a{
+	display: block;
+	color: black;
+	text-decoration: none;
+	background-color: lightgray;
+	padding: 20px 40px;
+	text-align: center;
+
+
+}
+
+li a:hover{
+	background-color: green;
+}
