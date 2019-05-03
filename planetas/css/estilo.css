@@ -16,7 +16,7 @@
 		text-shadow: 1px 1px 7px white;
 	}
 
-	img{
+	.astro{
 
 	display: block;
 	margin-left: auto;
@@ -91,4 +91,26 @@ li a{
 
 li a:hover{
 	background-color: green;
+}
+
+.ativo{
+	background-color: green;
+}
+
+table{
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+
+td{
+	border: 1px solid white;
+}
+
+table img{
+	width: 80px;
+	height: 80px;
+}
+
+caption{
+	border:1px solid white;
 }
